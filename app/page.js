@@ -9,7 +9,7 @@ export default function Home() {
     {/* Header */}
     <header className="bg-gray-800">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <h1 className="text-xl font-bold text-gray-200">Progen</h1>
+        <h1 className="text-xl font-bold text-gray-200">AI Video Gen</h1>
         <nav className="space-x-4">
           <a href="#" className="text-gray-200 hover:text-gray-900">Home</a>
           <a href="#" className="text-gray-200 hover:text-gray-900">Gallery</a>
