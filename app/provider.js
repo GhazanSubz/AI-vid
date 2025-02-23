@@ -1,9 +1,9 @@
 "use client"
 import { useUser } from '@clerk/nextjs';
-import { Users } from '@/configs/schema';
 import React, { useEffect } from 'react';
 import { db } from '@/configs/db';
 import { eq } from 'drizzle-orm';
+import { Users } from '@/configs/schema';
 
 
 

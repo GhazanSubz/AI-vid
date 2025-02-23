@@ -29,7 +29,7 @@ const SelectStyle = ({onUserSelect}) => {
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mt-3'>
         {styleOptions.map((item,index)=>(
             <div key={index} className={`relative hover:scale-105 transition-all cursor-pointer ${selectedOption==item.name&&'border-4 border-purple-700'}`}>
-                <Image src={item.image} width={100} height={100} className='h-40 object-cover rounded-lg w-full' onClick={()=>{
+                <Image alt='' src={item.image} width={100} height={100} className='h-40 object-cover rounded-lg w-full' onClick={()=>{
                     setSelectedOption(item.name)
                     onUserSelect('imageStyle',item.name)
                     }}/>
